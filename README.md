@@ -7,9 +7,15 @@ The macros that are available here include
 3. H&E
 4. 3D colony assays
 
-To install these macros:
-1. Download the ijm file (for example IHC.ijm)
-2. On FIJI toolbar go to Plugins > Macros > Install 
-3. Select IHC.ijm and click Open
-4. Go back to Plugins > Macros and you should now see the option of IHC
-5. Select IHC and follow the prompts
+Method
+
+1.	Download and install FIJI or update FIJI (version 1.51k or later) [https://fiji.sc]
+2.	Download macro (eg IHC.ijm) (Supplementary attachment)
+3.	Go to Plugins > Macros > Install… in the menu bar of FIJI
+4.	Select macro (eg IHC.ijm) to temporarily install macro
+5.	Go to Plugins > Macros. The option to use the macro should be in that dropdown menu now.
+
+Note: This temporarily installs the macro into the toolbar of FIJI and will disappear when FIJI is closed. Simply reinstall the macro when you open FIJI again.
+
+Note 2: These macros were designed for single images and not Z-stacks. Convert image stacks to single files before using macros
+
