@@ -1,5 +1,5 @@
 # Andy-s-Algorithm
-These scripts were created to simplify the automated analysis of biological images.
+These scripts were created to simplify the automated analysis of biological assays.
 
 The macros that are available here include
 1. IHC
@@ -18,4 +18,3 @@ Method
 Note: This temporarily installs the macro into the toolbar of FIJI and will disappear when FIJI is closed. Simply reinstall the macro when you open FIJI again.
 
 Note 2: These macros were designed for single images and not Z-stacks. Convert image stacks to single files before using macros
-
