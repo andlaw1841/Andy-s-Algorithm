@@ -18,6 +18,7 @@ Method
 The algorithm will be temporally installed into the toolbar of FIJI and closes when FIJI is exited. Simply reinstall the algorithm when you open FIJI again. The algorithm is designed for single images and not Z-stacks. Please convert image stacks to single files before running each algorithm. Sample images are provided at https://github.com/andlaw1841/Andy-s-Algorithm to assist users with the optimization of the image processing and analysis settings.
 
 
+
 Troubleshooting
 
 PLA - PC hidden files
