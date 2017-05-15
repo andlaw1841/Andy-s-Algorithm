@@ -10,11 +10,15 @@ The macros that are available here include
 Method
 
 1.	Download and install FIJI or update FIJI (version 1.51k or later) [https://fiji.sc]
-2.	Download macro (eg IHC.ijm) (Supplementary attachment)
-3.	Go to Plugins > Macros > Install… in the menu bar of FIJI
-4.	Select macro (eg IHC.ijm) to temporarily install macro
-5.	Go to Plugins > Macros. The option to use the macro should be in that dropdown menu now.
+2.	Download Andy’s Algorithms (eg DAB_IHC.ijm, PLA.ijm, HandE.ijm and 3D_colony.ijm) 
+3.	Go to Plugins > Macros > Install the Algorithm of choice in the menu bar of FIJI
+4.	Select the Andy’s Algorithm preference (eg IHC.ijm) to install the algorithm
+5.	Go to Plugins > Macros. An option to select the algorithm will now be in the dropdown menu
 
-Note: This temporarily installs the macro into the toolbar of FIJI and will disappear when FIJI is closed. Simply reinstall the macro when you open FIJI again.
+The algorithm will be temporally installed into the toolbar of FIJI and closes when FIJI is exited. Simply reinstall the algorithm when you open FIJI again. The algorithm is designed for single images and not Z-stacks. Please convert image stacks to single files before running each algorithm. Sample images are provided at https://github.com/andlaw1841/Andy-s-Algorithm to assist users with the optimization of the image processing and analysis settings.
 
-Note 2: These macros were designed for single images and not Z-stacks. Convert image stacks to single files before using macros
+
+Troubleshooting
+
+PLA - PC hidden files
+1. When running the PLA Algorithm in Windows, hidden files (such as desktop.ini) in the image folder can cause an error message to display with either 'There are no images open' or 'Index (X) out of range in line 4278'. To correct this, in the image folder click on the View tab and select the Advanced settings. Check the "Show hidden files, folder or drives" and uncheck the "Hide protected operating system files" boxes and click OK. This will reveal the hidden files that are within the image folder and you can temporarily move those hidden files to another folder before you proceed with the PLA image analysis. Once the analysis is complete you can move the hidden files back into the folder and go back to the Advanced settings in the View tab and uncheck the "Show hidden files, folder or drives" and check the "Hide protected operating system files" boxes.
