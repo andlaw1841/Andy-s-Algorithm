@@ -21,5 +21,23 @@ The algorithm will be temporally installed into the toolbar of FIJI and closes w
 
 Troubleshooting
 
+All - No values in dialogue box
+When the user is prompted to enter a value in the dialogue box and a value within the dialogue box is deleted and no value is entered an Error with the following message will display.
+
+
+                                     Macro Error
+            Numberic value expected in run() function
+
+            Dialog box title: "[Title of dialog where the value is deleted]"
+            Key: "[Section where value was deleted]"
+            Value or variable name: "[A variable name]"
+
+
+This error will only occur if the user deletes a value and leaves it blank before proceeding with the next step. If the error occurs the user will have to close everything that is opened within FIJI and restart the macro. To avoid this error ensure that no parameters are empty or is left blank throughout the macro.
+
+
+
+
+
 PLA - PC hidden files
 1. When running the PLA Algorithm in Windows, hidden files (such as desktop.ini) in the image folder can cause an error message to display with either 'There are no images open' or 'Index (X) out of range in line 4278'. To correct this, in the image folder click on the View tab and select the Advanced settings. Check the "Show hidden files, folder or drives" and uncheck the "Hide protected operating system files" boxes and click OK. This will reveal the hidden files that are within the image folder and you can temporarily move those hidden files to another folder before you proceed with the PLA image analysis. Once the analysis is complete you can move the hidden files back into the folder and go back to the Advanced settings in the View tab and uncheck the "Show hidden files, folder or drives" and check the "Hide protected operating system files" boxes.
